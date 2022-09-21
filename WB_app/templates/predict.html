@@ -1,0 +1,36 @@
+<html>
+<head>
+<!-- CSS only -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+<style>
+    .center {
+      position: absolute;
+      text-align: center;
+      left: 50%;
+      top: 50%;
+      transform: translate(-50%, -50%);
+      font-family: Arial, Helvetica, sans-serif;
+      background-color: rgb(180, 180, 180);
+    }
+  </style>
+</head>
+<body class="center">
+
+    <p>{{ins}}</p>
+    <p>The data you enterd : {{inputint}}</p>
+    <h2>Prediction : {{pred}}</h2>
+
+    {% if pred == 1 %}
+    <h1 style=" color: rgb(88, 180, 88); font-weight: 900;">
+    L3aaz WldCha3b  💪💪
+  
+    {% elif pred == 0 %}
+    <h1 style="color: rgb(212, 85, 85); font-weight: 900;">
+    Machi WldCha3b 😡😡
+  
+    {% endif %}
+  
+    <p><a href="{% url 'home' %}"><h6>Back</h6></a></p>
+
+</body>
+</html>
