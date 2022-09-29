@@ -9,6 +9,7 @@ def home(request):
 
 def predict(request):
     model = joblib.load('wb_model.sav')
+    #model = joblib.load(r'C:\Users\pc\Desktop\wb\wb_model.sav')
     input = []
     input.append(request.GET['lfya9'])
     input.append(request.GET['salaire'])
