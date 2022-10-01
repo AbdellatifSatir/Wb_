@@ -1,0 +1,39 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+asgiref = "==3.5.2"
+beautifulsoup4 = "==4.11.1"
+certifi = "==2022.6.15"
+distlib = "==0.3.5"
+dj-database-url = "==1.0.0"
+django = "==4.1.1"
+django-bootstrap-v5 = "==1.0.11"
+django-heroku = "==0.3.1"
+filelock = "==3.8.0"
+gunicorn = "==20.1.0"
+joblib = "==1.1.0"
+numpy = "==1.23.2"
+pandas = "==1.4.4"
+pipenv = "==2022.8.19"
+platformdirs = "==2.5.2"
+psycopg2 = "==2.9.3"
+python-dateutil = "==2.8.2"
+pytz = "==2022.2.1"
+scikit-learn = "==1.1.2"
+scipy = "==1.9.1"
+six = "==1.16.0"
+soupsieve = "==2.3.2.post1"
+sqlparse = "==0.4.2"
+threadpoolctl = "==3.1.0"
+tzdata = "==2022.2"
+virtualenv = "==20.16.3"
+virtualenv-clone = "==0.5.7"
+whitenoise = "==6.2.0"
+
+[dev-packages]
+
+[requires]
+python_version = "3.10"
